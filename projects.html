@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style1.css">
+    <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+    rel="stylesheet"
+  />
+  <script
+    src="https://kit.fontawesome.com/f14e42ca11.js"
+    crossorigin="anonymous"
+  ></script>
+    <title>My Projects</title>
+</head>
+<body>
+    <div class="main-section-projects">
+        <nav class="navbar">
+          <div class="logo-container">
+            <i class="fas fa-laptop-code fa-2x"></i>
+            <label class="logo"><a href="index.html">Zachary Avant</a></label>
+            
+          </div>
+          <a href="#" class="toggle-button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </a>
+          <div class="navbar-links">
+            <ul>
+                <li class="main-links"><a href="index.html">Home</a></li>
+                <li class="main-links"><a href="about.html">About</a></li>
+                <li class="main-links"><a href="projects.html">Projects</a></li>
+                <li class="main-links"><a href="contact.html">Contact</a></li>
+          
+              <div class="social-links">
+                <li class="socials">
+                  <a href="https://github.com/zavant"><i class="fab fa-github fa-2x"></i></a>
+                </li>
+                <li class="socials">
+                  <a href="https://www.linkedin.com/in/zachary-avant-7592ba152/"><i class="fab fa-linkedin fa-2x"></i></a>
+                </li>
+              </div>
+            </div>
+            </ul>
+        </nav>     
+    </div>
+    <div class="project-container">
+        <div class="middle-content">
+          <h3 class="project-h">Server Dashboard</h3>
+          <p class="project-p">This project uses HTML, CSS, Python and a line of Javascript to create a server dashboard. This dashboard utilizes the NinjaRMM API with the use of Flask to create a live webpage that helps keep the client aware of server issues. The dashboard will populate offline servers and servers that need attention, this could be anything from hard drive failure to a RAID battery.</p>
+          <img id="project-dashboard" src="img/serverdashboard.PNG" alt="server dashboard">
+          <div class="project-links">
+          <a href="https://github.com/zavant/Ninja_Dashboard"><button>Code</button></a>
+          <a href="http://dashboard2.jhcomputergroup.com/"><button>Visit</button></a>
+          </div>
+        </div>
+        <div class="middle-content">
+          <h3 class="project-h">Real Estate Website</h3>
+          <p class="project-p">This project utilizes Django and a PostgreSQL database. Employees are able to add listings as desired while users can search the database for their desired listings. The website features Djangos authentication system with admin tools.</p>
+          <img id="project-dashboard" src="img/realestate.png" alt="server dashboard">
+          <div class="project-links">
+          <a href="https://github.com/zavant/realtor"><button>Code</button></a>
+          <a href="http://www.zavantech.com/"><button>Visit</button></a>
+          </div>
+        </div>
+        <div class="middle-content">
+          <h3 class="project-h">Expense Tracker</h3>
+          <p class="project-p">A flask application using bootstrap for styling. This application is used to keep track of inventory requests between remote centers.</p>
+          <img id="project-dashboard" src="img/expensetracker.PNG" alt="server dashboard">
+          <div class="project-links">
+          <a href="https://github.com/zavant/expense_tracker"><button>Code</button></a>
+          <a href="https://flaskexpenses.herokuapp.com/"><button>Visit</button></a>
+          </div>
+        </div>
+        <div class="middle-content">
+          <h3 class="project-h">Automated Backup Data</h3>
+          <p class="project-p">This script looks through certain volumes on the server to find backup files, compiles them into a csv file and emails them daily to a backup email address. This script reduces the time it takes to look through backups and significantly reduces the chance for errors.</p>
+          <div class="project-links">
+          <a href="https://github.com/zavant/Python_Scripts"><button>Code</button></a>
+          </div>
+        </div>
+      </div>
+</body>
+</html>
