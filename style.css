@@ -11,6 +11,7 @@
   justify-content: space-evenly;
   width: 100%;
   padding: 0 20px;
+  background-color: #222831;
 }
 .logo-container {
   display: flex;
@@ -100,17 +101,16 @@ label.logo:hover {
 
 /* middle area */
 .main-section {
-  background: url("img/forrest.jpg") no-repeat center center/cover;
+  background: url("img/abstract.jpg") no-repeat center center/cover;
   height: 100vh;
-  position: relative;
 }
 
-.main-section-projects {
-  background: url("img/forrest.jpg") no-repeat center center/cover;
+.project-container {
+  background: url("img/bg-img.jpg") no-repeat center center/cover;
 }
 
 .main-section-about .navbar{
-  background: url("img/forrest.jpg") no-repeat center center/cover;
+  background-color: #222831;
 }
 
 .middle-content {
@@ -120,7 +120,8 @@ label.logo:hover {
   justify-content: center;
   text-align: center;
   height: 75%;
-  color: #fff;
+  color: black;
+  font-weight: bold;
 }
 
 .middle-content h3 {
@@ -128,6 +129,7 @@ label.logo:hover {
   margin: 5px;
   padding-top: 100px;
   padding-bottom: 15px;
+  font-weight: 700;
 }
 
 .middle-content p {
@@ -135,6 +137,7 @@ label.logo:hover {
   padding: 0 300px;
   text-align: justify;
   line-height: 1.9rem;
+  font-weight: 700;
 }
 
 .middle-content button {
@@ -174,6 +177,7 @@ label.logo:hover {
   width: 20%;
   height: 50%;
   margin-bottom: 15px;
+  border-radius: 75px;
 }
 .img-section h2 {
   text-align: center;
@@ -227,7 +231,7 @@ label.logo:hover {
     top: 1rem;
   }
   .toggle-button .bar {
-    background-color: #00adb5;;
+    background-color: #fff;
   }
   .navbar {
     flex-direction: column;
@@ -246,12 +250,7 @@ label.logo:hover {
   .navbar-links.active {
     display: flex;
   }
-  .navbar ul li a, .logo-container i {
-    color: #00adb5;
-  }
-  label.logo a {
-    color: #00adb5;
-  }
+
 
   .logo-container {
     margin-top: 5px;
